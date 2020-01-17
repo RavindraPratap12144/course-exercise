@@ -1,0 +1,31 @@
+LAB EXERCISE 1
+
+1. 	pwd , ls -al
+
+2. 	mkdir intern-2020 rapidops-2020
+
+3. 	touch dev.txt helloworld.txt
+
+4.	cat > dev.txt ,	echo "helloworld" > helloworld.txt
+
+5. 	cp -r dev.txt helloworld.txt ../rapidops-2020/
+
+6.	cd ../rapidops-2020/ , mv dev.txt dev1.txt ; mv helloworld.txt helloworld1.txt
+
+7.	chmod u=r dev1.txt , chmod ug=rw helloworld1.txt
+
+8. 	tar -cvf test.tar dev1.txt ,	mv test.tar ../intern-2020/
+
+9. 	cp test.tar test-new.tar , 	rm test.tar
+
+10.	find -iname dev.txt
+
+11.	top
+
+12. 	df -h ; free -m
+
+13. 	ps -aux |,	ps -aux | grep 'gnome-terminal-server'
+
+14.	wget https://releases.mattermost.com/desktop/4.3.2/mattermost-desktop-4.3.2-linux-i386.deb
+
+15.	ifconfig
